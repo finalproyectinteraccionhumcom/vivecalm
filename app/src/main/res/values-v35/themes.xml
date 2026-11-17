@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- en Android 15 la app sigue dibujándose debajo de la barra de estado, no detrás -->
+    <style name="Theme.ViveCalm" parent="Base.Theme.ViveCalm">
+        <item name="android:windowOptOutEdgeToEdgeEnforcement">true</item>
+    </style>
+</resources>
